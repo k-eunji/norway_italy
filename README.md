@@ -1,6 +1,6 @@
-# UEFA Women's EURO 2025: Who Advances to the Quarter-finals? <Group B>
+# UEFA Women's EURO 2025:  Can You Win Without the Ball? Norway vs Italy, a Clash of Counterattack Styles
 
-This project explores which teams advanced to the quarter-finals in Group B of the UEFA Women’s EURO 2025. By analyzing key metrics and match data, I predict which teams will move forward.
+This project uses key metrics and match data to predict whether Norway or Italy will advance to the semifinlas in the UEFA Women’s EURO 2025.
 
 ---
 
@@ -13,6 +13,11 @@ This project explores which teams advanced to the quarter-finals in Group B of t
 - Expected Goals (xG)
 - Big chances
 - Possession (%)
+- Tackle Success Rate (%)
+- Clearances
+- Saves
+- Allowed HxGOT
+- Goals Prevented (Expected)	
 
 ---
 
@@ -32,11 +37,11 @@ This project explores which teams advanced to the quarter-finals in Group B of t
 
 | Filename                | Description                                               |
 |-------------------------|-----------------------------------------------------------|
-| `round1_2.csv`  | Raw match data including shots, xG, etc. per Team |
-| `stats_b.csv`          | Processed Group B data from round1_2.csv  |
-|  `stats_b.ipynb`    | Jupyter Notebook with data analysis and visualization code        |
-|  `b_group_graph.ipynb`    | Jupyter Notebook with data analysis and visualization code        |
-| `Portugal_Belgium_comparison.png` | Visualization of data about Portugal vs Belgium        |
-| `Itlay_Spain_comparison.png` | Visualization of data about Itlay vs Spain           |
+| `round1_3.csv`  | Raw match data including shots, xG, etc. per Team |
+| `wteam_avg.csv`          | Processed Average of Italy and Norway from round1_3.csv  |
+|  `nor_italy.ipynb`    | Jupyter Notebook with data analysis and visualization code        |
+|  `Possession.png`    | Visualization of Possession about Norway vs Italy        |
+| `defense_metrics_comparison.png` | Visualization of defense data about Norway vs Italy        |
+| `attack_metrics_comparison.png` | Visualization of attack data about Norway vs Italy           |
 
 Creation date: 15 July, 2025
